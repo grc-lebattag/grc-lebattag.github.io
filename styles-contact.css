@@ -33,7 +33,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	line-height: 2;
 }
 ol, ul {
 	list-style: none;
@@ -72,9 +72,10 @@ html, body {
     width: 65%; /*added tihs to make div responsive*/
 	max-width: 800px;
 	padding: 2%;
+	letter-spacing: 5px;
     margin: 100px auto;
 	border-radius: 30px;
- 	background: rgba(24, 136, 61, 0.75); /*this uses opacity of 75% for the background color*/
+ 	background: rgba(108, 156, 124, 0.75); /*this uses opacity of 75% for the background color*/
 	text-align: center;
 }
    
@@ -94,7 +95,7 @@ p {
 nav{
 	width: 80%;
 	margin: 0 auto;
-	padding: 15px 0;
+	padding: 30px 0;
 		font-family: "helvetica", sans-serif;
 }
 
