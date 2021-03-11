@@ -60,7 +60,7 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/marble_bg.jpg)
+  background: url(images/marble_bg_new.jpg)
 		center center fixed no-repeat;
 	background-size: cover;
 	font-family: "helvetica", sans-serif;
@@ -69,13 +69,13 @@ html, body {
 }
 
 .center {
-    width: 80%; /*added tihs to make div responsive*/
+    width: 65%; /*added tihs to make div responsive*/
+	max-width: 800px;
 	padding: 2%;
     margin: 100px auto;
-	border-radius: 30px 150px; /*this is new...may wanna take out */
+	border-radius: 30px;
  	background: rgba(24, 136, 61, 0.75); /*this uses opacity of 75% for the background color*/
 	text-align: center;
-	border: 4px white; /* in this line I took out the "dashed" omcponent*/
 }
    
 #logo {
@@ -89,73 +89,14 @@ p {
     line-height: 1.6;
 	letter-spacing: 5px;
     color: rgb(0, 0, 0);
-
-	/*THIS IS NEW ATTEMPT AT ANIMATION!!!!!!!!!!!1 */
-	animation: fadeIn ease 16s;
-	-webkit-animation: fadeIn ease 10s;
-	-moz-animation: fadeIn ease 10s;
-	-o-animation: fadeIn ease 10s;
-	-ms-animation:fadeIn ease 10s;
 }
-@keyframes fadeIn {
-	0% {
-		opacity:0;
-	}
-	100% {
-		opacity:1;
-	}
-}
-
-@-moz-keyframes fadeIn {
-	0% {
-		opacity:0;
-	}
-	100% {
-		opacity:1;
-	}
-}
-
-@-webkit-keyframes fadeIn {
-	0% {
-		opacity:0;
-	}
-	100% {
-		opacity:1;
-	}
-}
-
-@-o-keyframes fadeIn {
-	0% {
-		opacity:0;
-	}
-	100% {
-		opacity:1;
-	}
-}
-
-@-ms-keyframes fadeIn {
-	0% {
-		opacity:0;
-	}
-	100% {
-		opacity:1;
-	}
-	}
-/* END OF NEW ATTEMPT AT ANIMATION*/
-
 
 nav{
-	font-family: garamond;
-	font-size: 1.2em;
 	width: 80%;
 	margin: 0 auto;
-	border: dashed turquoise;
-	border-width: 3px 0;
-	text-align: center;
-	margin-top: 2em;
+	padding: 15px 0;
+		font-family: "helvetica", sans-serif;
 }
-
-
 
 nav li{
 	display:inline;
@@ -167,16 +108,11 @@ nav a{
 	}
 
 a{
-	color:#444;
+	color:rgb(41, 40, 40);
 	text-decoration: none;
 	font-weight: bold;
 }
 a:hover{
 	color:black;
-	background:pink;
+	background:rgb(134, 132, 133);
 }
-
-
-
-
-
