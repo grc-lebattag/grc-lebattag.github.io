@@ -60,60 +60,94 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/bricks_bg.jpg) 
-	center center fixed no-repeat;
+  background: url(images/marble_bg.jpg)
+		center center fixed no-repeat;
 	background-size: cover;
+	font-family: "helvetica", sans-serif;
 	
 	
 }
 
 .center {
-    width: 800px;
+    width: 80%; /*added tihs to make div responsive*/
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
+	border-radius: 30px 150px; /*this is new...may wanna take out */
+ 	background: rgba(24, 136, 61, 0.75); /*this uses opacity of 75% for the background color*/
 	text-align: center;
-	border: 4px dashed white;
+	border: 4px white; /* in this line I took out the "dashed" omcponent*/
 }
-
    
 #logo {
-    margin-bottom: 16px;
-	border: 3px dashed red;
+    margin-bottom: 50px;
+	margin-top: 50px;         /* new*/
 	text-align: center;
-}
-
-h1 {
-	font-family: garamond, sans-serif;
-	font-weight: 400;
-	font-style: normal;
-	font-size: 2em;
-    margin: 0px auto 10px auto;
-    color: #fff;
-}
-
-h2 {
-	font-family: liebedoni-solid, sans-serif;
-	font-weight: 400;
-	font-style: normal;
-	font-size: 1.5em;
-    line-height: 1.4;
-    color: #fff;
-    padding: 0px 0px;
-    margin: 0px auto 25px auto;
 }
 
 p {
-	font-family: garamond, sans-serif;
 	font-size: 1.2em;
     line-height: 1.6;
-    color: #fff;
+	letter-spacing: 5px;
+    color: rgb(0, 0, 0);
+
+	/*THIS IS NEW ATTEMPT AT ANIMATION!!!!!!!!!!!1 */
+	animation: fadeIn ease 16s;
+	-webkit-animation: fadeIn ease 10s;
+	-moz-animation: fadeIn ease 10s;
+	-o-animation: fadeIn ease 10s;
+	-ms-animation:fadeIn ease 10s;
 }
-    
+@keyframes fadeIn {
+	0% {
+		opacity:0;
+	}
+	100% {
+		opacity:1;
+	}
+}
+
+@-moz-keyframes fadeIn {
+	0% {
+		opacity:0;
+	}
+	100% {
+		opacity:1;
+	}
+}
+
+@-webkit-keyframes fadeIn {
+	0% {
+		opacity:0;
+	}
+	100% {
+		opacity:1;
+	}
+}
+
+@-o-keyframes fadeIn {
+	0% {
+		opacity:0;
+	}
+	100% {
+		opacity:1;
+	}
+}
+
+@-ms-keyframes fadeIn {
+	0% {
+		opacity:0;
+	}
+	100% {
+		opacity:1;
+	}
+	}
+/* END OF NEW ATTEMPT AT ANIMATION*/
+
+
 nav{
 	font-family: garamond;
 	font-size: 1.2em;
-	width: 400px;
+	width: 80%;
 	margin: 0 auto;
 	border: dashed turquoise;
 	border-width: 3px 0;
