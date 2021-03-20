@@ -63,18 +63,20 @@ html, body {
   background: url(images/marble_bg_new.jpg)
 		center center fixed no-repeat;
 	background-size: cover;
-	font-family: "helvetica", sans-serif;
+	font-family: gimlet-text, serif;
+	font-weight: 500;
+	font-style: normal;
 	
 	
 }
 
 .center {
     width: 65%; /*added tihs to make div responsive*/
-	max-width: 800px;
+	max-width: 600px;
 	padding: 2%;
 	letter-spacing: 5px;
     margin: 100px auto;
-	border-radius: 30px;
+	border-radius: 90px;
  	background: rgba(108, 156, 124, 0.75); /*this uses opacity of 75% for the background color*/
 	text-align: center;
 }
@@ -96,7 +98,9 @@ nav{
 	width: 80%;
 	margin: 0 auto;
 	padding: 30px 0;
-		font-family: "helvetica", sans-serif;
+	font-family: gimlet-text, serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
 nav li{
@@ -115,5 +119,5 @@ a{
 }
 a:hover{
 	color:black;
-	background:rgb(134, 132, 133);
+	background:rgb(204, 209, 206);
 }
