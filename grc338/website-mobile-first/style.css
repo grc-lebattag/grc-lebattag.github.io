@@ -25,13 +25,13 @@ Header {
 body {
 	background-color: #fafafa; 
 	color: rgb(51, 51, 50); 
-	line-height: 140%; 	/* A little extra leading. */
+	line-height: 140%; 	
 	font-family: sans-serif;
 }
 
 h1 {
 	background-color:#fafafa;
-	color: #fafafa; /* Same as body background. */
+	color: #fafafa; 
 	font-size: 3em;
 	padding: 2.5rem 1rem rem;
 	font-weight: bold;
@@ -39,7 +39,7 @@ h1 {
 
 
 h2 { 
-	background-color: #fafafa;
+	background-color:#fafafa;
 	color:rgb(172, 50, 43);
 	font-size: 3em;
 	padding: 4rem 1rem 1.5rem;
@@ -49,7 +49,7 @@ h2 {
 }
 
 h3 {
-	margin: 4rem 1rem .5rem; /*Three values again. You got the idea.*/
+	margin: 4rem 1rem .5rem; 
 	padding-top: .5em;
 	font-size: 1.5em;
 	color: rgb(172, 50, 43);
