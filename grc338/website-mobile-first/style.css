@@ -1,0 +1,124 @@
+/*CSS DOCUMENT*/
+
+img {
+    width: 100%; 
+	margin: none;
+}
+
+/*Please don’t change this CSS stylesheet for the content hierarchy assginment */
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; display: block;}
+
+
+
+
+Header {
+	background-color: #fafafa);
+	padding-bottom: none;
+	font-size: 14pt;
+	font: georgia;
+	border-bottom: 5pt solid rgb(172, 50, 43);
+}
+
+
+}
+body {
+	background-color: #fafafa; 
+	color: rgb(51, 51, 50); 
+	line-height: 140%; 	/* A little extra leading. */
+	font-family: sans-serif;
+}
+
+h1 {
+	background-color:#fafafa;
+	color: #fafafa; /* Same as body background. */
+	font-size: 3em;
+	padding: 2.5rem 1rem rem;
+	font-weight: bold;
+	text-transform: uppercase;}
+
+
+h2 { 
+	background-color: #fafafa;
+	color:rgb(172, 50, 43);
+	font-size: 4em;
+	padding: 4rem 1rem 1.5rem;
+	font-family: apparat-semicond, sans-serif;
+	font-weight: 900;
+	font-style: italic;
+}
+
+h3 {
+	margin: 4rem 1rem .5rem; /*Three values again. You got the idea.*/
+	padding-top: .5em;
+	font-size: 1.5em;
+	color: rgb(172, 50, 43);
+	font-weight: bold;
+	text-transform: none;
+	letter-spacing: .01em;
+
+}
+
+h4 {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+p.about {
+	padding: 1rem 3rem 2.5rem 1rem;
+}
+
+p.contact {
+	padding: 1rem 3rem 1rem 1rem;
+}
+
+p.description {
+	font-style: italic;
+	color:rgb(85, 91, 97);
+}
+
+p.price {
+	color: rgb(172, 50, 43);
+}
+
+ul {
+	margin: 1.5rem 1rem 4rem;
+}
+
+li { 
+	margin: 2rem .5rem;;
+}
+
+nav ul {
+	padding: 1;	
+}
+
+nav ul li {
+	display: inline;
+	list-style-type: none;
+	margin-right: 2em;
+	font-family: apparat-semicond, sans-serif;
+	font-weight: 900;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 1.5em;
+	text-transform: uppercase;
+}
+nav ul li a {
+	color: #222;
+	display: inline;
+	text-decoration: none;
+}
+
+
+nav ul li a:hover {
+	color:  rgb(172, 50, 43);
+}
+li span {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+footer {
+	padding-bottom: 8rem;
+}
