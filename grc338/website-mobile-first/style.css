@@ -13,7 +13,7 @@ html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, 
 
 
 Header {
-	background-color: #fafafa);
+	background-color: #fafafa;
 	padding-bottom: none;
 	font-size: 14pt;
 	font: georgia;
@@ -120,5 +120,5 @@ li span {
 }
 
 footer {
-	padding-bottom: 8rem;
+	padding-bottom: 5rem;
 }
