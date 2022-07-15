@@ -76,6 +76,7 @@ font-size: large;
 font-family: forma-djr-display, sans-serif;
 font-weight: 800;
 font-style: italic;
+padding-right: 0em;
 }
 nav ul li a:hover {
 color: #53917E;
