@@ -1,17 +1,56 @@
 /*CSS document*/
-header{
-background-color: rgb(253, 253, 253);
-padding: 2em;
-}
 body {
-background-color: #2c3331;
-font-family: articulat-cf, sans-serif;
-font-weight: 400;
+background-color: rgb(42, 45, 48);
+max-width: 80em;
+margin:auto;
+font-family: solitaire-mvb-pro, sans-serif;
+font-weight: 300;
 font-style: normal;
 }
 div.container {
+max-width: 80em;
+margin: 0 auto;
+background-color: rgb(42, 45, 48);
+padding: 3em;
+}
+section{
 max-width: 40em;
-margin: auto;
+margin: 0 auto 3em;
+background-color:  rgb(234, 238, 243);
+padding:2em;
+}
+p{
+color: #181817;
+}
+figure {
+margin: 0;
+font-family: solitaire-mvb-pro-light, sans-serif;
+font-weight: 400;
+font-style: italic;
+}
+img {
+width: 100%;
+}
+article{
+max-width: 80em;
+background-color:rgb(234, 238, 243);
+padding:2em;
+margin:3em;
+}
+ul {
+list-style-type: none;
+padding: 0;
+}
+ul li{
+display:inline;
+margin-right:1em;
+}
+a{
+text-decoration: none;
+color: #EC9F05;
+}
+h1 {
+width: 5em;
 }
 h2{
 font-family: forma-djr-display, sans-serif;
@@ -25,28 +64,10 @@ font-weight: 800;
 font-style: italic;
 text-decoration: none;
 color: #53917E;
+font-size: 1.25em;
 }
-section{
-background-color: rgb(255, 255, 255);
-padding: 2em;
-}
-p{
-color: rgb(0, 0, 0);
+a{
 text-decoration: none;
-}
-article{
-background-color: rgb(255, 255, 255);
-padding: 2em;
-}
-figure {
-margin: 0;
-}
-img {
-width: 100%;
-}
-ul {
-list-style-type: none;
-padding: 0;
 }
 nav ul li {
 display: inline;
@@ -56,14 +77,63 @@ font-family: forma-djr-display, sans-serif;
 font-weight: 800;
 font-style: italic;
 }
-nav ul li a {
-color: rgb(16, 17, 17);
-display: inline;
-text-decoration: none;
-}
 nav ul li a:hover {
-color: #EC9F05;
+color: #53917E;
 }
-.container a{
-text-decoration: none;
+footer{
+padding: 1em 2.5em 2em 1em;
+margin-right:2em;
+margin-left:2.5em;
+background-color: rgb(234, 238, 243);
+}
+@media screen and (min-width: 60em){
+div.container {
+display: grid;
+grid-template-columns: 3f 1fr;
+grid-gap: 0 2.5em;
+}
+header {
+grid-column: 1/3;
+}
+main{
+grid-column: 1/2;
+display: grid;
+grid-template-columns: repeat (3,1fr);
+grid-gap: 0 1em;
+}
+section.mainstory {
+grid-column: 1/3;
+grid-row:1/2;
+display:flex;
+flex-direction: column;
+}
+section.mainstory figure {
+flex: 1 0 18em;
+display: flex;
+flex-direction:column;
+}
+section.mainstory figure div {
+flex: 1 0 18em;
+background-image: url(vegas.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position:center;
+}
+section.mainstory figure div img{
+height:100%;
+opacity:0;
+}
+section.mainstory h2 {
+flex: 0 0 auto;
+margin: 0;
+padding-top: 2em;
+}
+section.mainstory p {
+flex: 0 0 auto;
+margin: 0;
+padding-top:.25em;
+}
+aside {
+grid-column: 2/3;
+}
 }
