@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <title>Nibblez</title>
+      <link rel="stylesheet" href="https://use.typekit.net/cwu5zbl.css">
+      <link rel="stylesheet" href="https://use.typekit.net/cwu5zbl.css">
+      <link rel="stylesheet" href="https://use.typekit.net/cwu5zbl.css">
+      <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+      <meta http-equiv="Pragma" content="no-cache" />
+      <meta http-equiv="Expires" content="0" />
+   </head>
+   <body>
+      <div class="container">
+      <header>
+         <h1> <a href="index.html"> <img src="nibblez_logo.png" alt="Logo for Nibblez."> </a></h1>
+         <nav>
+            <ul>
+               <!-- ★ Use as many sections as you want, but replace the dashed lines with actual names for the sections of the publication. You may keep them all linked to the pound symbol, though. -->
+               <li><a href="#">Dessert</a></li>
+               <li><a href="#">Meals</a></li>
+               <li><a href="#">Drinks</a></li>
+               <li><a href="newsletter.html">Newsletter</a></li>
+               <li><a href="#">Contact</a></li>
+            </ul>
+         </nav>
+      </header>
+      <main>
+         <form>
+            <section class="personal-info">
+               <h2>Personal information</h2>
+               <ul>
+                  <li><label for="name">Name:</label> <input type="text" name="name" id="name" placeholder="your full name" /></li>
+                  <li><label for="email">Email:</label> <input type="email" name="email" id="email" placeholder="confirmation email" /></li>
+               </ul>
+            </section>
+            <section class="order">
+               <h3>What topic are you most interested in staying updated on?</h3>
+               <ul>
+                  <li><input type="checkbox" id="desserts" value="desserts" /> <label for="desserts">Desserts</label></li>
+                  <li><input type="checkbox" id="meals" value="meals" /> <label for="meals">Meals</label></li>
+                  <li><input type="checkbox" id="drinks" value="drinks" /> <label for="drinks">Drinks</label></li>
+               </ul>
+            </section>
+            <section  class="method">
+               <h2>How often would you like us to send you information?</h2>
+               <ul>
+                  <li><input type="radio" id="delivery" value="delivery" name="method" /> <label for="delivery">Weekly</label></li>
+                  <li><input type="radio" id="pick-up" value="pick-up" name="method" /> <label for="pick-up">Monthly</label></li>
+                  <li><input type="radio" id="pick-up" value="pick-up" name="method" /> <label for="pick-up">Annually</label></li>
+               </ul>
+            </section>
+            <section>
+               <button type="order">Submit</button>
+            </section>
+         </form>
+         <footer>
+            All rights reserved.
+         </footer>
+      </main>
+   </body>
+</html>
